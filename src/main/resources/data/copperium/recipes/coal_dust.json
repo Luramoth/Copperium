@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraf:coal"
+      "item": "minecraft:coal"
     }
   ],
   "result": {
