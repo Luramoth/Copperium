@@ -1,9 +1,7 @@
 package com.luramoth.copperium.item;
 
 import com.luramoth.copperium.Copperium;
-import com.luramoth.copperium.ModItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,7 +11,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS
             = DeferredRegister.create(ForgeRegistries.ITEMS, Copperium.MOD_ID);
 
+    //////////////////// ITEMS
     public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coaldust",
+            () -> new Item(new Item.Properties().group(ModItemGroup.COPPERIUM)));
+
+    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copperingot",
             () -> new Item(new Item.Properties().group(ModItemGroup.COPPERIUM)));
 
     public static void register(IEventBus eventBus) {
