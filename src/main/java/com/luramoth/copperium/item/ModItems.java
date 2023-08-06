@@ -12,10 +12,16 @@ public class ModItems {
             = DeferredRegister.create(ForgeRegistries.ITEMS, Copperium.MOD_ID);
 
     //////////////////// ITEMS
+    // coal dust
     public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coaldust",
             () -> new Item(new Item.Properties().group(ModItemGroup.COPPERIUM)));
 
+    // copper ingot
     public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copperingot",
+            () -> new Item(new Item.Properties().group(ModItemGroup.COPPERIUM)));
+
+    // Infused Copper Ingot
+    public static final RegistryObject<Item> INFUSED_COPPER_INGOT = ITEMS.register("infusedcopperingot",
             () -> new Item(new Item.Properties().group(ModItemGroup.COPPERIUM)));
 
     public static void register(IEventBus eventBus) {
