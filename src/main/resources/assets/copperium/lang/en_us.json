@@ -1,6 +1,6 @@
 {
   "itemGroup.copperium": "Copperium",
-  "item.copperium.coaldust": "Coal Dust",
-  "item.copperium.copperingot": "Copper Ingot",
-  "item.copperium.infusedcopperingot": "Infused Copper Ingot"
+  "item.copperium.coal_dust": "Coal Dust",
+  "item.copperium.copper_ingot": "Copper Ingot",
+  "item.copperium.infused_copper_ingot": "Infused Copper Ingot"
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "copperium:item/copperingot"
+    "layer0": "copperium:item/coal_dust"
   }
 }
