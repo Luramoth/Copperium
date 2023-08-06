@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraf:coal"
+    }
+  ],
+  "result": {
+    "item": "copperium:coal_dust",
+    "count": 9
+  }
+}
