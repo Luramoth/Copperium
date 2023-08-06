@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "copperium:copperingot"
+    },
+    {
+      "item": "copperium:coaldust"
+    }
+  ],
+  "result": {
+    "item": "copperium:infusedcopperingot"
+  }
+}
