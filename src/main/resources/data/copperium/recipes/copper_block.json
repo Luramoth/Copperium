@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "iron_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "copperium:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "copperium:copper_block"
+  }
+}
