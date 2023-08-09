@@ -1,6 +1,7 @@
 package com.luramoth.copperium.block;
 
 import com.luramoth.copperium.Copperium;
+import com.luramoth.copperium.block.custom.infused_copper_block;
 import com.luramoth.copperium.item.ModItemGroup;
 import com.luramoth.copperium.item.ModItems;
 import net.minecraft.block.AbstractBlock;
@@ -24,6 +25,11 @@ public class ModBlocks {
     /////////////////// BLOCKS
     public static final RegistryObject<Block> COPPER_BLOCK = registerBlock("copper_block",
             () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(0)
+                    .hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> INFUSED_COPPER_BLOCK = registerBlock("infused_copper_block",
+            () -> new infused_copper_block(AbstractBlock.Properties.create(Material.IRON)
                     .harvestLevel(0)
                     .hardnessAndResistance(5f)));
 

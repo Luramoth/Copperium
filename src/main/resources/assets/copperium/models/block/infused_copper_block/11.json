@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "copperium:block/infused_copper_block/11"
+  }
+}

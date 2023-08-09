@@ -5,5 +5,6 @@
   "item.copperium.copper_ingot": "Copper Ingot",
   "item.copperium.infused_copper_ingot": "Infused Copper Ingot",
 
-  "block.copperium.copper_block": "Copper Block"
+  "block.copperium.copper_block": "Copper Block",
+  "block.copperium.infused_copper_block": "Infused Copper Block"
 }

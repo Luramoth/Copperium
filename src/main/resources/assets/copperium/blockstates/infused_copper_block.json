@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "power=0": {
+      "model":  "copperium:block/infused_copper_block/00"
+    },
+    "power=1": {
+      "model":  "copperium:block/infused_copper_block/01"
+    },
+    "power=2": {
+      "model":  "copperium:block/infused_copper_block/02"
+    },
+    "power=3": {
+      "model":  "copperium:block/infused_copper_block/03"
+    },
+    "power=4": {
+      "model":  "copperium:block/infused_copper_block/04"
+    },
+    "power=5": {
+      "model":  "copperium:block/infused_copper_block/05"
+    },
+    "power=6": {
+      "model":  "copperium:block/infused_copper_block/06"
+    },
+    "power=7": {
+      "model":  "copperium:block/infused_copper_block/07"
+    },
+    "power=8": {
+      "model":  "copperium:block/infused_copper_block/08"
+    },
+    "power=9": {
+      "model":  "copperium:block/infused_copper_block/09"
+    },
+    "power=10": {
+      "model":  "copperium:block/infused_copper_block/10"
+    },
+    "power=11": {
+      "model":  "copperium:block/infused_copper_block/11"
+    },
+    "power=12": {
+      "model":  "copperium:block/infused_copper_block/12"
+    },
+    "power=13": {
+      "model":  "copperium:block/infused_copper_block/13"
+    },
+    "power=14": {
+      "model":  "copperium:block/infused_copper_block/14"
+    }
+  }
+}
